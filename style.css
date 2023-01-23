@@ -1,0 +1,15 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.maincontainer {
+    display: flex;
+    flex-direction: column;
+}
