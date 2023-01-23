@@ -1,17 +1,59 @@
+.header, .section1, .footer {
+    background-color: #1F2937;
+}
+
+.header .logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.header .right-links, .maincontent .content {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
 .header {
     display: flex;
     justify-content: space-between;
+}
+
+.maincontent .title {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.maincontent .CTA, .section4 .section4content, .section4 .signup-button{
+    background-color: #3882F6;
+}
+
+.section2 .title {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.section3 .quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+}
+
+
+
+
+
+
+
+.maincontainer {
+    display: flex;
+    flex-direction: column;
 }
 
 .section1 {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.maincontainer {
-    display: flex;
-    flex-direction: column;
 }
 
 .section2 .title {
@@ -29,7 +71,7 @@
 }
 
 .section3 {
-    background-color: lightgray;
+    background-color: #E5E7EB;
     display: flex;
     flex-direction: column;
     justify-content: center;
